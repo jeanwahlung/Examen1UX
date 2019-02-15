@@ -1,13 +1,15 @@
 {
   "main.css": "/Examen1UX/static/css/main.adae095e.chunk.css",
-  "main.js": "/Examen1UX/static/js/main.ff85e8b1.chunk.js",
-  "main.js.map": "/Examen1UX/static/js/main.ff85e8b1.chunk.js.map",
+  "main.js": "/Examen1UX/static/js/main.75dbb393.chunk.js",
+  "main.js.map": "/Examen1UX/static/js/main.75dbb393.chunk.js.map",
   "runtime~main.js": "/Examen1UX/static/js/runtime~main.b3aeeab5.js",
   "runtime~main.js.map": "/Examen1UX/static/js/runtime~main.b3aeeab5.js.map",
-  "static/js/2.1449b3c0.chunk.js": "/Examen1UX/static/js/2.1449b3c0.chunk.js",
-  "static/js/2.1449b3c0.chunk.js.map": "/Examen1UX/static/js/2.1449b3c0.chunk.js.map",
+  "static/css/2.2aa84a42.chunk.css": "/Examen1UX/static/css/2.2aa84a42.chunk.css",
+  "static/js/2.d4e04c2a.chunk.js": "/Examen1UX/static/js/2.d4e04c2a.chunk.js",
+  "static/js/2.d4e04c2a.chunk.js.map": "/Examen1UX/static/js/2.d4e04c2a.chunk.js.map",
   "index.html": "/Examen1UX/index.html",
-  "precache-manifest.b705c95da3e2b2618d9fa3204fa4ca98.js": "/Examen1UX/precache-manifest.b705c95da3e2b2618d9fa3204fa4ca98.js",
+  "precache-manifest.e1ef81a1c8c0c26294a836189e655abc.js": "/Examen1UX/precache-manifest.e1ef81a1c8c0c26294a836189e655abc.js",
   "service-worker.js": "/Examen1UX/service-worker.js",
+  "static/css/2.2aa84a42.chunk.css.map": "/Examen1UX/static/css/2.2aa84a42.chunk.css.map",
   "static/css/main.adae095e.chunk.css.map": "/Examen1UX/static/css/main.adae095e.chunk.css.map"
 }
