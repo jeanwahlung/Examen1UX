@@ -2,10 +2,10 @@ import React from "react";
 
 import './loginrender.css';
 import './App.css';
-import App from './App.js';
 
 
-import FadeTransition from "./transitions/fadeTransition";
+
+import FadeTransition from "../src/transitions/fadeTransition";
 
 class Loginrender extends React.Component {
 
@@ -18,11 +18,11 @@ class Loginrender extends React.Component {
   }
 
   showLoginBox() {
-    this.setState({ isLoginOpen: true, isRegisterOpen: false });
+    this.setState({isLoginOpen: true, isRegisterOpen: false});
   }
 
   showRegisterBox() {
-    this.setState({ isRegisterOpen: true, isLoginOpen: false });
+    this.setState({isRegisterOpen: true, isLoginOpen: false});
   }
 
   render() {
@@ -32,33 +32,33 @@ class Loginrender extends React.Component {
 
         <div className="box-controller">
           <div
-            className={ "controller " + (this.state.isLoginOpen
-              ? "selected-controller"
-              : "") }
-            onClick={ this
-              .showLoginBox
-              .bind(this) }>
+            className={"controller " + (this.state.isLoginOpen
+            ? "selected-controller"
+            : "")}
+            onClick={this
+            .showLoginBox
+            .bind(this)}>
             Login
           </div>
           <div
-            className={ "controller " + (this.state.isRegisterOpen
-              ? "selected-controller"
-              : "") }
-            onClick={ this
-              .showRegisterBox
-              .bind(this) }>
+            className={"controller " + (this.state.isRegisterOpen
+            ? "selected-controller"
+            : "")}
+            onClick={this
+            .showRegisterBox
+            .bind(this)}>
             Register
           </div>
         </div>
-
-        <FadeTransition isOpen={ this.state.isLoginOpen } duration={ 500 }>
+ 
+        <FadeTransition isOpen={this.state.isLoginOpen} duration={500}>
           <div className="box-container">
-            <LoginBox />
+            <LoginBox/>
           </div>
         </FadeTransition>
-        <FadeTransition isOpen={ this.state.isRegisterOpen } duration={ 500 }>
+        <FadeTransition isOpen={this.state.isRegisterOpen} duration={500}>
           <div className="box-container">
-            <RegisterBox />
+            <RegisterBox/>
           </div>
         </FadeTransition>
 
@@ -77,10 +77,9 @@ class LoginBox extends React.Component {
   }
 
   submitLogin(e) {
-
       
-    
-  };
+  }
+
   render() {
     return (
       <div className="inner-container">
@@ -95,7 +94,7 @@ class LoginBox extends React.Component {
               type="text"
               name="username"
               className="login-input"
-              placeholder="Username" />
+              placeholder="Username"/>
           </div>
 
           <div className="input-group">
@@ -104,13 +103,13 @@ class LoginBox extends React.Component {
               type="password"
               name="password"
               className="login-input"
-              placeholder="Password" />
+              placeholder="Password"/>
           </div>
 
           <button
             type="button"
             className="login-btn"
-            onClick={ this.submitLogin.bind(this) }>Login</button>
+            onClick={this.submitLogin.bind(this)}>Login</button>
 
         </div>
       </div>
@@ -155,29 +154,29 @@ class RegisterBox extends React.Component {
           newArr.push(err);
         }
       }
-      return { errors: newArr };
+      return {errors: newArr};
     });
   }
 
   onUsernameChange(e) {
-    this.setState({ username: e.target.value });
+    this.setState({username: e.target.value});
     this.clearValidationErr("username");
   }
 
   onEmailChange(e) {
-    this.setState({ email: e.target.value });
+    this.setState({email: e.target.value});
     this.clearValidationErr("email");
   }
 
   onPasswordChange(e) {
-    this.setState({ password: e.target.value });
+    this.setState({password: e.target.value});
     this.clearValidationErr("password");
 
-    this.setState({ pwdState: "weak" });
+    this.setState({pwdState: "weak"});
     if (e.target.value.length > 8) {
-      this.setState({ pwdState: "medium" });
+      this.setState({pwdState: "medium"});
     } else if (e.target.value.length > 12) {
-      this.setState({ pwdState: "strong" });
+      this.setState({pwdState: "strong"});
     }
 
   }
@@ -198,14 +197,14 @@ class RegisterBox extends React.Component {
     }
     if (this.state.password === "") {
       this.showValidationErr("password", "Password Cannot be empty!");
-    } else {
-
+    }else{
+    
     }
 
   }
 
   render() {
-
+    
 
     let usernameErr = null,
       passwordErr = null,
@@ -238,7 +237,7 @@ class RegisterBox extends React.Component {
       pwdStrong = true;
     }
 
-    return (
+    return ( 
       <div className="inner-container">
         <div className="header">
           Register
@@ -252,12 +251,12 @@ class RegisterBox extends React.Component {
               name="username"
               className="login-input"
               placeholder="Username"
-              onChange={ this
-                .onUsernameChange
-                .bind(this) } />
-            <small className="danger-error">{ usernameErr
-              ? usernameErr
-              : "" }</small>
+              onChange={this
+              .onUsernameChange
+              .bind(this)}/>
+            <small className="danger-error">{usernameErr
+                ? usernameErr
+                : ""}</small>
           </div>
 
           <div className="input-group">
@@ -267,12 +266,12 @@ class RegisterBox extends React.Component {
               name="email"
               className="login-input"
               placeholder="Email"
-              onChange={ this
-                .onEmailChange
-                .bind(this) } />
-            <small className="danger-error">{ emailErr
-              ? emailErr
-              : "" }</small>
+              onChange={this
+              .onEmailChange
+              .bind(this)}/>
+            <small className="danger-error">{emailErr
+                ? emailErr
+                : ""}</small>
           </div>
 
           <div className="input-group">
@@ -282,39 +281,39 @@ class RegisterBox extends React.Component {
               name="password"
               className="login-input"
               placeholder="Password"
-              onChange={ this
-                .onPasswordChange
-                .bind(this) } />
-            <small className="danger-error">{ passwordErr
-              ? passwordErr
-              : "" }</small>
+              onChange={this
+              .onPasswordChange
+              .bind(this)}/>
+            <small className="danger-error">{passwordErr
+                ? passwordErr
+                : ""}</small>
 
-            { this.state.password && <div className="password-state">
+            {this.state.password && <div className="password-state">
               <div
-                className={ "pwd pwd-weak " + (pwdWeak
-                  ? "show"
-                  : "") }></div>
+                className={"pwd pwd-weak " + (pwdWeak
+                ? "show"
+                : "")}></div>
               <div
-                className={ "pwd pwd-medium " + (pwdMedium
-                  ? "show"
-                  : "") }></div>
+                className={"pwd pwd-medium " + (pwdMedium
+                ? "show"
+                : "")}></div>
               <div
-                className={ "pwd pwd-strong " + (pwdStrong
-                  ? "show"
-                  : "") }></div>
-            </div> }
+                className={"pwd pwd-strong " + (pwdStrong
+                ? "show"
+                : "")}></div>
+            </div>}
 
           </div>
 
           <button
             type="button"
             className="login-btn"
-            onHover={ this
-              .openPopup
-              .bind(this) }
-            onClick={ this
-              .submitRegister
-              .bind(this) }>Register</button>
+            onHover={this
+            .openPopup
+            .bind(this)}
+            onClick={this
+            .submitRegister
+            .bind(this)}>Register</button>
 
         </div>
       </div>

@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Cart } from './Cart';
+import Cart from './Hobbies.js';
 
 import { Button } from 'reactstrap';
 
 
 import Log from './Loginrender';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ProductCard from './Productcard'
+import ProductCard from './Productcard.js'
 import './loginrender.css'
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem, Form, FormControl } from 'react-bootstrap';
 
@@ -62,9 +62,7 @@ import { Navbar, Nav, NavItem, NavDropdown, MenuItem, Form, FormControl } from '
       let peopleCards = this.state.people.map(person => {
         return (
           <div class="col-sm-3">
-          <div>
           
-          </div>
             <ProductCard person={ person } />
           
           </div>
@@ -88,7 +86,7 @@ import { Navbar, Nav, NavItem, NavDropdown, MenuItem, Form, FormControl } from '
   
           <div className="cartcontainer">
             <h2>  Cart </h2>
-            < Cart />
+            <Cart />
   
           </div>
           <div class="col-sm-8">

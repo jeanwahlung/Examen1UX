@@ -20,7 +20,7 @@ class Product extends Component {
           <CardBody>
             <CardTitle>{ this.props.person.name }.</CardTitle>
             <CardSubtitle>{ this.props.person.prize } </CardSubtitle>
-            <Button onClick={alert(this.props.person.name)}>Add Cart</Button>
+            <Button >Add Cart</Button>
           </CardBody>
         </Card>
       </div>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Cartitem extends React.Component {
+class CartItem extends React.Component {
     render() {
         return (
             <li></li>
@@ -8,4 +8,4 @@ class Cartitem extends React.Component {
     }
 }
 
-export { Cartitem }
+export default { CartItem};
