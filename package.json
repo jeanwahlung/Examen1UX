@@ -2,7 +2,7 @@
   "name": "examen",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https:///jeanwahlung.github.io/ExamenUX/",
+  "homepage": "https:///jeanwahlung.github.io/Examen1UX/",
   "dependencies": {
     "@types/npm": "^2.0.29",
     "axios": "^0.18.0",
