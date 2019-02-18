@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/jeanwahlung.github.io/Examen1UX/precache-manifest.8c720d6923f41ac0f4d0b5c123e709c9.js"
+  "/jeanwahlung.github.io/Examen1UX/precache-manifest.6fc28a88a8e39935cbda6549dcae5722.js"
 );
 
 workbox.clientsClaim();

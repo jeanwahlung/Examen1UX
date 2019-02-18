@@ -4,23 +4,23 @@ self.__precacheManifest = [
     "url": "/jeanwahlung.github.io/Examen1UX/static/js/runtime~main.50c39c44.js"
   },
   {
-    "revision": "14936f305dcc8ae2a90e",
-    "url": "/jeanwahlung.github.io/Examen1UX/static/js/main.14936f30.chunk.js"
+    "revision": "2c7d9b73e2c12ef52a86",
+    "url": "/jeanwahlung.github.io/Examen1UX/static/js/main.2c7d9b73.chunk.js"
   },
   {
     "revision": "c25b1c38184671cf3479",
     "url": "/jeanwahlung.github.io/Examen1UX/static/js/2.c25b1c38.chunk.js"
   },
   {
-    "revision": "14936f305dcc8ae2a90e",
-    "url": "/jeanwahlung.github.io/Examen1UX/static/css/main.a1114ecb.chunk.css"
+    "revision": "2c7d9b73e2c12ef52a86",
+    "url": "/jeanwahlung.github.io/Examen1UX/static/css/main.330ed024.chunk.css"
   },
   {
     "revision": "c25b1c38184671cf3479",
     "url": "/jeanwahlung.github.io/Examen1UX/static/css/2.2aa84a42.chunk.css"
   },
   {
-    "revision": "7c782a61444c63b240403c6bc5c237eb",
+    "revision": "39b45ff101a68db66445b4bb2c80cada",
     "url": "/jeanwahlung.github.io/Examen1UX/index.html"
   }
 ];
