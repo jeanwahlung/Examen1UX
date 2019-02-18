@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Examen1UX/precache-manifest.b04448e4268fc77ac8443277be30c755.js"
+  "/jeanwahlung.github.io/ExamenUX/precache-manifest.a853a6a2a82e4a8cd73ac1a4c6350ff4.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Examen1UX/index.html", {
+workbox.routing.registerNavigationRoute("/jeanwahlung.github.io/ExamenUX/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
