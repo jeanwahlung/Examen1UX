@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
-import { HobbyItem } from './Cartitem';
+
 
 class Cart extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             hobbies: [
-                'Reading',
-                'Sport',
-                'Music',
-                'Chess',
-                'Cooking'
+                
             ],
             deleted: false
         }
@@ -66,10 +62,10 @@ class Cart extends React.Component {
                 <nav className="nav-add">
                     <input type="text" id="input-add" />
                     <button id="new-hobby"
-                        onClick={this.addHobby.bind(this)}>New Hobby</button>
+                        onClick={this.addHobby.bind(this)}>AddCart</button>
                 </nav>
-                <p>{this.state.deleted && 'Hobby Deleted!'}</p>
-                <p className={cssCounter} ><b>Count of Hobbies:
+                <p>{this.state.deleted && 'Item Deleted!'}</p>
+                <p className={cssCounter} ><b>Count of Items:
                 </b> {this.state.hobbies.length}</p>
                 <ul>
                     {hobbyItems}

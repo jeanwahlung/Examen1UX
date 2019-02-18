@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Cart from './Hobbies.js';
+import Cart from './Cart.js';
 
 import { Button } from 'reactstrap';
 
