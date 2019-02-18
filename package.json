@@ -1,28 +1,24 @@
 {
-  "name": "examen",
+  "name": "ux-proyecto",
   "version": "0.1.0",
+  "homepage": "https://jeanwahlung.github.io/Examen1UX/",
   "private": true,
-  "homepage": "https:///jeanwahlung.github.io/Examen1UX/",
   "dependencies": {
-    "@types/npm": "^2.0.29",
-    "axios": "^0.18.0",
     "bootstrap": "^4.3.1",
-    "node-sass": "^4.11.0",
-    "react": "^16.8.1",
+    "react": "^16.8.2",
     "react-bootstrap": "^1.0.0-beta.5",
-    "react-custom-scrollbars": "^4.2.1",
-    "react-dom": "^16.8.1",
+    "react-dom": "^16.8.2",
     "react-scripts": "2.1.5",
-    "reactstrap": "^7.1.0"
+    "reactstrap": "^7.1.0",
+    "start": "^5.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run lint && npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "lint": "eslint src/**/*{js,jsx}"
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,5 +31,6 @@
   ],
   "devDependencies": {
     "gh-pages": "^2.0.1"
+   
   }
 }

@@ -5,7 +5,7 @@ import './App.css';
 
 
 
-import FadeTransition from "../src/transitions/fadeTransition";
+import FadeTransition from "./transitions/fadeTransition";
 
 class Loginrender extends React.Component {
 
