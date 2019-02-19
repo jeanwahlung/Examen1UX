@@ -41,6 +41,7 @@ class Cart extends React.Component {
         });
     }
 
+  
     render() {
         let cssHobbyItem = 'hobby-item';
         let cssCounter = 'more-three';
