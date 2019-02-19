@@ -305,15 +305,9 @@ class RegisterBox extends React.Component {
 
           </div>
 
-          <button
-            type="button"
-            className="login-btn"
-            onHover={ this
-              .openPopup
-              .bind(this) }
-            onClick={ this
-              .submitRegister
-              .bind(this) }>Register</button>
+          <form action="https://jeanwahlung.github.io/ventas/">
+          <input type="submit" value="Register" />
+        </form>
 
         </div>
       </div>
