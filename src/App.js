@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Cart from './Cart.js';
-
 import { Button } from 'reactstrap';
-
-
 import Log from './Loginrender';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ProductCard from './Productcard.js'
@@ -47,14 +44,6 @@ class App extends Component {
           name: "BikeVest Bote de agua",
           prize: "600 lps"
         }
-
-
-
-
-
-
-
-
       ]
     }
   }

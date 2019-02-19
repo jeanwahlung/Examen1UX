@@ -1,5 +1,3 @@
-
-
 import React, { Component } from 'react';
 import {
   Card, CardImg, CardText, CardBody,
@@ -20,7 +18,7 @@ class Product extends Component {
           <CardBody>
             <CardTitle>{ this.props.person.name }.</CardTitle>
             <CardSubtitle>{ this.props.person.prize } </CardSubtitle>
-            <Button >Add Cart</Button>
+            <Button >Add Cart </Button>
           </CardBody>
         </Card>
       </div>
