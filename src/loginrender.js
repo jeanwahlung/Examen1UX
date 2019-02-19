@@ -108,7 +108,7 @@ class LoginBox extends React.Component {
           </div>
 
           <form action="https://jeanwahlung.github.io/ventas/">
-            <input type="submit" value="Login" />
+            <input type="submit" className="login-btn" value="Login" />
           </form>
 
         </div>
