@@ -56,7 +56,6 @@ class Cart extends React.Component {
         } else if (hobbiesLength === 3) {
             cssCounter = 'equal-three';
         }
-
         return (
             <div className="hobbies-list">
                 <nav className="nav-add">
