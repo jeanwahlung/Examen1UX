@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/Examen1UX/static/js/runtime~main.b3aeeab5.js"
   },
   {
-    "revision": "acdfd9566bf4b51a70fe",
-    "url": "/Examen1UX/static/js/main.acdfd956.chunk.js"
+    "revision": "bc5b23368032e437a5ca",
+    "url": "/Examen1UX/static/js/main.bc5b2336.chunk.js"
   },
   {
     "revision": "23a6cb9d5a9955752b73",
     "url": "/Examen1UX/static/js/2.23a6cb9d.chunk.js"
   },
   {
-    "revision": "acdfd9566bf4b51a70fe",
+    "revision": "bc5b23368032e437a5ca",
     "url": "/Examen1UX/static/css/main.330ed024.chunk.css"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/Examen1UX/static/css/2.2aa84a42.chunk.css"
   },
   {
-    "revision": "5f9ec0c5cdfd244ba3b4f2c8f559d3c0",
+    "revision": "aaa50384133c449959c9952c1dfc9526",
     "url": "/Examen1UX/index.html"
   }
 ];
